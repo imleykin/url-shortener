@@ -1,4 +1,5 @@
 {
   "port": 4000,
-  "dbUri": "mongodb+srv://ilya_leykin:dFoDhwEt367@cluster0.rpp0f.mongodb.net/app?retryWrites=true&w=majority"
+  "dbUri": "mongodb+srv://ilya_leykin:dFoDhwEt367@cluster0.rpp0f.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecretString": "some random string"
 }
