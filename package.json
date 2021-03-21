@@ -4,7 +4,8 @@
   "description": "A URL shortner app built on mern stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "Ilya Leykin <imleykin@gmail.com>",
   "license": "ISC",
