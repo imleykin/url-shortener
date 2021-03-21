@@ -5,6 +5,8 @@ const mongoose = require('mongoose');
 const PORT = config.get('port') || 4000;
 const app = express();
 
+app.use('/api/auth', require('./routes/auth.routes'));
+
 const startApp = async () => {
   try {
     await mongoose.connect(config.get('dbUri'), {
